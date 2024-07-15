@@ -1,0 +1,1 @@
+export const JWT_SECRET = 'MEDIUM_blog_Key'

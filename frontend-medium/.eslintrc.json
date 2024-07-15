@@ -1,0 +1,10 @@
+{
+  "extends": "react-app",
+
+  "overrides": [
+    {
+      "files": ["src/**/*.ts", "src/**/*.tsx", "vite.config.ts"]
+    }
+  ],
+  "ignorePatterns": ["!vite.config.ts"]
+}
