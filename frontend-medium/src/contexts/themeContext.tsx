@@ -8,7 +8,7 @@ const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
 //2 create parent context provider
 
 function ThemeProvider({ children }: ThemeProviderProps) {
-  const [darkMode, setDarkMode] = useState(true);
+  const [darkMode, setDarkMode] = useState(false);
 
   const toggleDarkMode = () => setDarkMode(!darkMode);
 
